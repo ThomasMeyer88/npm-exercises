@@ -90,7 +90,19 @@ eval("var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!\n * jQ
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\"use strict;\";\n\nvar $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\nvar sayHello = function sayHello() {\n  console.log('Hello!');\n};\n\n$('body').css('background-color', 'blue');\n\nsayHello();//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vc3JjL2luZGV4LmpzPzEyZDUiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2Ugc3RyaWN0O1wiXG5jb25zdCAkID0gcmVxdWlyZSgnanF1ZXJ5Jyk7XG5cbmNvbnN0IHNheUhlbGxvID0gKCkgPT4ge2NvbnNvbGUubG9nKCdIZWxsbyEnKX07XG5cbiQoJ2JvZHknKS5jc3MoJ2JhY2tncm91bmQtY29sb3InLCAnYmx1ZScpO1xuXG5zYXlIZWxsbygpO1xuXG4iXSwibWFwcGluZ3MiOiI7QUFBQTtBQUNBO0FBQUE7QUFDQTtBQUNBO0FBQUE7QUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/index.js\n");
+eval("\n\"use strict;\";\n\nvar _sayHello = __webpack_require__(/*! ./say-hello */ \"./src/say-hello.js\");\n\nvar _sayHello2 = _interopRequireDefault(_sayHello);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\nvar sayHello = function sayHello() {\n  console.log('Hello!');\n};\n\n$('body').css('background-color', 'blue');\n\nsayHello();\n\nconsole.log(_sayHello2.default.niceHello());//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vc3JjL2luZGV4LmpzPzEyZDUiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2Ugc3RyaWN0O1wiXG5jb25zdCAkID0gcmVxdWlyZSgnanF1ZXJ5Jyk7XG5cbmNvbnN0IHNheUhlbGxvID0gKCkgPT4ge2NvbnNvbGUubG9nKCdIZWxsbyEnKX07XG5cbiQoJ2JvZHknKS5jc3MoJ2JhY2tncm91bmQtY29sb3InLCAnYmx1ZScpO1xuXG5zYXlIZWxsbygpO1xuXG5pbXBvcnQgbmV3SGVsbG8gZnJvbSAnLi9zYXktaGVsbG8nO1xuXG5cbmNvbnNvbGUubG9nKG5ld0hlbGxvLm5pY2VIZWxsbygpKTsiXSwibWFwcGluZ3MiOiI7QUFBQTtBQUNBO0FBUUE7QUFDQTs7Ozs7QUFUQTtBQUNBO0FBQ0E7QUFBQTtBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUlBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/index.js\n");
+
+/***/ }),
+
+/***/ "./src/say-hello.js":
+/*!**************************!*\
+  !*** ./src/say-hello.js ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\"use strict;\";\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nvar niceHello = function niceHello() {\n    return \"Have a beautiful day\";\n};\n\nexports.default = { niceHello: niceHello };//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc2F5LWhlbGxvLmpzLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL3NyYy9zYXktaGVsbG8uanM/YmNjNCJdLCJzb3VyY2VzQ29udGVudCI6WyJcInVzZSBzdHJpY3Q7XCJcblxuY29uc3QgbmljZUhlbGxvID0gKCkgPT4ge1xuICAgIHJldHVybiBcIkhhdmUgYSBiZWF1dGlmdWwgZGF5XCI7XG59O1xuXG5leHBvcnQgZGVmYXVsdCB7bmljZUhlbGxvfTsiXSwibWFwcGluZ3MiOiI7QUFBQTtBQUNBOzs7O0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/say-hello.js\n");
 
 /***/ })
 
